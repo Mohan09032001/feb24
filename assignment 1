@@ -1,0 +1,24 @@
+n=int(input("Enter elements of list: "))
+l=[]
+count=0
+for q in range(1,n+1):
+    value = int(input("" ))
+    l.append(q)
+for num in l:
+    if num>1:
+        for j in range(2,num):
+            if (num%j)==0:
+                break
+        else:
+            count=count+1
+print("number of prime numbers in list is : ",count)
+
+   :OUTPUT:
+Enter elements of list: 5
+17
+11
+97
+66
+54
+number of prime numbers in list is :  3
+>
